@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR DASH TELECOM</title>
+    
+    <!-- Keamanan: Mencegah aplikasi dibuka di dalam iframe situs lain (Clickjacking Mitigation) -->
+    <style>html{display:none;}</style>
+    <script>
+        if (self === top) { document.documentElement.style.display = 'block'; } 
+        else { top.location = self.location; }
+    </script>
+
+    <!-- Pustaka Pihak Ketiga (CSS) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    
+    <!-- File CSS Internal Proyek -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0b0f19] text-gray-100 font-sans antialiased overflow-x-hidden">
+
+    <!-- Taruh seluruh struktur DOM HTML Dashboard Anda di dalam body sini -->
+    <!-- (Seluruh elemen navbar, sidebar, form input, tabel, dan modal) -->
+
+    <!-- Pustaka Pihak Ketiga (JS & Keamanan) -->
+    <!-- DOMPurify: Dependensi kuat untuk membersihkan input XSS secara real-time -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.8/purify.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <!-- File Logic JavaScript Proyek -->
+    <script src="app.js"></script>
+</body>
+</html>
