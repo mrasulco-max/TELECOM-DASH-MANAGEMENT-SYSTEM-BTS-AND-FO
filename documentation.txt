@@ -1,0 +1,6 @@
+mr-dash-telecom/
+│
+├── index.html          # Struktur kerangka aplikasi
+├── style.css           # Desain antarmuka & animasi siber
+├── app.js              # Logika bisnis, manajemen peran, & peta
+└── README.md           # Deskripsi proyek (isi dengan ringkasan sebelumnya)
